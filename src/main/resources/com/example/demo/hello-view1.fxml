@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="com.example.demo.HelloController">
+   <columnConstraints>
+      <ColumnConstraints/>
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints/>
+   </rowConstraints>
+   <Pane prefHeight="438.0" prefWidth="394.0">
+      <Button layoutX="171.0" layoutY="151.0" mnemonicParsing="false" onAction="#onHelloButtonClick"
+              text="Построить"/>
+      <TextField fx:id="firstStorona" layoutX="38.0" layoutY="102.0" prefHeight="25.0" prefWidth="70.0"
+                 promptText="Сторона1"/>
+      <TextField fx:id="secondStorona" layoutX="166.0" layoutY="102.0" prefHeight="25.0" prefWidth="70.0"
+                 promptText="Сторона 2"/>
+      <TextField fx:id="thirdStorona" layoutX="285.0" layoutY="102.0" prefHeight="25.0" prefWidth="70.0"
+                 promptText="Сторона 3"/>
+      <Label fx:id="bad" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="34.0"
+             prefHeight="17.0" prefWidth="394.0" text="Label" textAlignment="CENTER" textFill="#c30d0d"
+             textOverrun="CENTER_ELLIPSIS"/>
+   </Pane>
+</GridPane>
